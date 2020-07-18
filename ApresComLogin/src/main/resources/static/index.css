@@ -1,0 +1,41 @@
+p{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    text-align: center;
+}
+img{
+    border: 15px;
+    border-style:groove;
+    border-color: grey;
+
+}
+h1{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+
+
+}
+body{
+    background-color: rgb(255, 223, 136);
+}
+.index1{
+color: black;
+border-width: 1px;
+border-bottom: transparent;
+border-style: groove;
+background: rgb(112, 156, 250);
+padding: 10px;}
+.index2{
+border-top: transparent;
+color: black;
+border-width: 1px;
+border-style: groove;
+background: rgb(112, 156, 250);
+padding: 10px;}
+
+.sair{
+    text-align: center;
+}

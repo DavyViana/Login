@@ -1,0 +1,34 @@
+    <!DOCTYPE html>
+    <html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+        <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <link rel = "stylesheet" type="text/css" href="index.css">
+
+            <title>Davy 1um1</title>
+        </head>
+        <body>  
+            <h1><b>Bom dia</b></h1>
+        
+                    <p>prazer meu nome é Davy Viana,tenho 17 anos e sou de Brasília<br></p>
+                    <p> Sou de uma familia de baianos(sou o unico que nasceu em bsb)<br></p>
+                    <p> tenho como hobbies tocar instrumentos que são violao, baixo e ukulele<br></p>
+                    <p> e jogar todo tipo de jogo apesar de amar mais os de fps <br></p> 
+                    <div style="text-align: center;">
+                        <img src="bla.jpeg" width="300" height="250"/>
+                        <img src="bla.jpeg" width="300" height="250"/>
+                        <img src="bla.jpeg" width="300" height="250"/>
+                    </div>
+                    <p>para continuar click no link abaixo :)</p>
+        <div style="text-align: center;">
+            <p><a class="index1"; href="/Pagina2">parte 2</a></p>
+            <p><a class="index2"; href="/Pagina3">parte 3</a></p>
+        </div>
+        <div style="text-align: center;">
+            <form method="post" th:action="@{/logout}">
+                <button class="index2" type="submit" value="Sair">
+                    Sair
+                </button>
+            </form>
+            </div>
+        </body>
+    </html>
